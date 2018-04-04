@@ -1,0 +1,42 @@
+#timer,#days,#hours,#minutes,#seconds {
+  display: inline-block;
+  line-height: 1;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: -5px;
+  font-size: 40px;
+  cursor: default;
+}
+
+#days {
+  font-size: 120px;
+  color: #DF3200;
+}
+#hours {
+  font-size: 110px;
+  color: #EA6011;
+}
+#minutes {
+  font-size: 100px;
+  color: #feb236;
+}
+#seconds {
+  font-size: 90px;
+  color: #FFC215;
+}
+
+undertxt {
+  display: block;
+  font-size: 25px;
+  color: white;
+  cursor: default;
+}
+
+.counttimer {
+  text-align: center;
+  font-family:'Comic Sans MS';
+  border: 1px;
+  color: white;
+  /*position: relative;
+  transform: translate(0%, 50%);*/
+}
